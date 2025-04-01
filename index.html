@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     .container{
+       width:50%;
+       border:2px solid rgb(18, 77, 252);
+       background-color:white;
+       border-radius: 10px;
+       text-align: center;
+       padding:10px;
+       position:absolute;
+       left:25%;
+       top:35%;
+       height:300px;
+     }
+     .container h3{
+      font-style:italic;
+      font-size: 35px;
+      text-align: center;
+    
+     }
+    .edit1{
+        width: 80%;
+        height:30px;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+    .edit1:focus{
+        
+        border: 1px solid blue;
+       outline: none;
+       
+    }
+    
+    
+    .edit2{
+        margin-top: 20px;
+        width: 80%;
+        height:30px;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+    .edit2:focus{
+       
+        border: 1px solid blue;
+       outline: none;
+       
+    }
+        
+    
+    
+    .edit3{
+        background-color: #4de3fd;
+        text-align:center;
+        margin-top: 10px;
+        width: 40%;
+        height:30px;
+        border: 1px solid black;
+        border-radius: 3px;
+        margin-bottom: 10px;  
+    }
+    .edit3:hover {
+                background-color: #09c7ec;
+                border: 2px solid blue;
+                cursor: pointer;
+                
+            }
+    .container a{
+        margin-top: 4%;
+        color: #4da1b6;
+    }
+    a:hover{
+        cursor: pointer;
+        color:rgb(79, 22, 225);
+        text-decoration: underline;
+    }
+     .bbody{
+        background:linear-gradient(135deg, #5B86E5, #36D1DC); 
+     }
+
+    </style>
+</head>
+<body class="bbody">
+    <div class="container">
+        <h3 class="edit"><u >Login</u> </h3>
+        <input class="edit1" type="email" placeholder="Username" ><br>
+        <input class="edit2" type="password" placeholder="password"><br>
+        <button class="edit3" type="submit ">login</button><br>
+       <a  >forgott password?</a> 
+
+    </div>
+</body>
+</html>
